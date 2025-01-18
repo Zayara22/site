@@ -47,20 +47,75 @@
             <h3>Portifólio</h3>
 
             <p>
-                Este foi o primeiro site que desenvolvi, estuando Front End
+                Este foi o primeiro site que desenvolvi, estudando Front End
             </p>
 
         </article>
+
+    </section>
+
+    <section id="Habilidades">
+        <h2>Habilidades e tecnologias</h2>
+        <table>
+            <thead>
+                <th>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas.</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox, grid e animações CSS</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações</td>
+                </tr>
+            
+            </tbody>
+        </table>
+
     </section>
     <footer>
         <p>Direitos reservados a Zayara</p>
         <section id="contato">
             <h2>Contato</h2>
-            <p>tem um projeto em mente? Entre em Contato</p>
-            <address>
-                Email: <a href="mailto: zayarabernardesdacosta@gmail.com">zayarabernardesdacosta@gmail.com</a><br>
-                Telefone: <a href="tel:+5547997896822">47997896822</a>
-            </address>
+            <p>Tem um projeto em mente? Entre em Contato</p>
+
+            <Form action="">
+
+                <label for="nome">Nome:  </label> 
+                <input type="text" id="nome" name="nome" required> <br>
+                <label for="email">Email:  </label> 
+                <input type="email" id="email" name="email" required><br>
+                <label for="telefone">Telefone:  </label> 
+                <input type="tel" id="telefone" name="telefone"><br>
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="orçamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+ </select>
+ <br>
+ <label for="mensagem">Mensagem: </label>
+ <textarea name="mensagem" id="mensagem" cols="20" rowns="5" required></textarea>
+ <br>
+ <input type="checkbox" id="inscricao" name="inscricao">
+ <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+ <br>
+ <input type="submit" value="Enviar mensagem">
+ <input type="date">
+            </Form>
+           
         </section>
     </footer>
 </body>
